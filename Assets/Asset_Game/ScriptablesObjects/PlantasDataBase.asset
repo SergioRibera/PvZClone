@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d2bc67960300384197c167d5555c453, type: 3}
+  m_Name: PlantasDataBase
+  m_EditorClassIdentifier: 
+  Plantas:
+  - id: 0
+    life: 10
+    type: 0
+    animations: {fileID: 9100000, guid: 998e7e32f50210148be7fb03d886e4c0, type: 2}
+    originShoot: {x: 0.31, y: 0.31, z: 0}
+    maxDistance: 10
+    attackType: 2
+    shootCadencia: 1.8
+    maskEnemy:
+      serializedVersion: 2
+      m_Bits: 256
+    prefab: {fileID: 4481556671090336444, guid: 523e71b8ae9cdb640bed73f6a46a1ce8,
+      type: 3}
+    prefabBullet: {fileID: 5326338206390632091, guid: 1900ff1fb6d068b4d85dedf699d6aede,
+      type: 3}
+    previewSpan: {fileID: 1520261563347401811, guid: cb8ae700029c6d54293906ffd8ac9f08,
+      type: 3}
+    target: {fileID: -6062949248627734626, guid: f235bcd412b3e0d4481c9bf3b1e26240,
+      type: 3}
+    unlock: 1
+    addToSelect: 1
+    myIndex: 0
